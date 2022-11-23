@@ -4,6 +4,7 @@
 
 - [General info](#general-info)
 - [Technologies](#technologies)
+- [Live preview](#live-preview)
 
 ## General info
 
@@ -18,3 +19,7 @@ Project is created with:
 Project uses external libraries:
 
 - Clipboard 2.0.11
+
+## Live preview
+
+Live preview is available at https://szymonp1992.github.io/link-shortener/
