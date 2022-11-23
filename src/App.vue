@@ -27,6 +27,7 @@
 
 <script>
 import { ref } from "vue";
+import ClipboardJS from "../clipboardjs/src/clipboard";
 
 export default {
   setup() {
@@ -51,11 +52,11 @@ export default {
       shortLink.value = data.link;
     }
 
-    const clipboard = new ClipboardJS('.btn');
+    const clipboard = new ClipboardJS(".btn");
 
-    clipboard.on('success', () => {
-        isActive.value = true;
-      });
+    clipboard.on("success", () => {
+      isActive.value = true;
+    });
 
     return { link, shortLink, isActive, getLink };
   },
@@ -108,6 +109,4 @@ p {
   text-align: center;
   margin: 0;
 }
-
-
 </style>
