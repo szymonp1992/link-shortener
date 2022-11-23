@@ -56,6 +56,9 @@ export default {
 
     clipboard.on("success", () => {
       isActive.value = true;
+      setTimeout(() => {
+        isActive.value = false;
+      }, 2000);
     });
 
     return { link, shortLink, isActive, getLink };
