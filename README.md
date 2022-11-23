@@ -1,29 +1,20 @@
-# link-shortener
+# Link shortener app
 
-This template should help get you started developing with Vue 3 in Vite.
+## Table of contents
 
-## Recommended IDE Setup
+- [General info](#general-info)
+- [Technologies](#technologies)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## General info
 
-## Customize configuration
+This app was created as a training project with guidelines from codementor.io. Its aim is to shorten a link provided by the user using Bitly API. Also the app enables you to copy the link by clicking the "Copy" button.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Technologies
 
-## Project Setup
+Project is created with:
 
-```sh
-npm install
-```
+- Vue 3.2.41
 
-### Compile and Hot-Reload for Development
+Project uses external libraries:
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Clipboard 2.0.11
